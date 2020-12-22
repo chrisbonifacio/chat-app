@@ -1,0 +1,18 @@
+.Chat {
+  position: absolute;
+  width: 100%;
+  min-height: 50px;
+  bottom: 0;
+  left: 0;
+
+  .Form {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-auto-rows: minmax(50px, 1fr);
+    .Message {
+      font-size: 1.5rem;
+    }
+    .Send {
+    }
+  }
+}
