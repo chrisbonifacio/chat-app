@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "simple chat app using express and socket.io",
+  "main": "index.js",
+  "repository": "https://github.com/chrisbonifacio/chat-app",
+  "author": "Chris Bonifacio <christopher.bonifacio@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
